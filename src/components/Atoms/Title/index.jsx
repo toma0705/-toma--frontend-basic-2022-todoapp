@@ -12,6 +12,9 @@ export const Title = () => {
 const StyledText = styled.div`
   color: ${COLOR.WHITE};
   font-family: ${FONTFAMILY.ROBOTO};
-  ${TEXT.M}
-  breakpoint: ${BREAKPOINT.MEDIUM}
+  ${TEXT.L}
+  @media screen and (max-width:${BREAKPOINT.MEDIUM}) {
+    ${TEXT.M}
+    font-family: ${FONTFAMILY.NOTO_SANS};
+  }
 `;
