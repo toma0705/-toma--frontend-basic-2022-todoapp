@@ -1,0 +1,48 @@
+import React from "react";
+import pencil from "../../../assets/svg/pencil.svg";
+import COLOR from "../../../variables/color.js";
+import styled from "styled-components";
+
+const SampleButton = ({ onClick }) => {
+  return (
+    <StyledButton onClick={onClick}>
+      <StyledRound></StyledRound>
+      <img
+        style={{
+          position: "absolute",
+          top: 2.5,
+          left: 2.5,
+          width: 15,
+          height: 15,
+        }}
+        src={pencil}
+      />
+    </StyledButton>
+  );
+};
+
+const StyledRound = styled.div`
+  border-radius: 50%;
+  position: absolute;
+  background-color: ${COLOR.LIGHT_GRAY_TRANSLUCENT};
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  display: none;
+`;
+
+const StyledButton = styled.button`
+  display: block;
+  position: relative;
+  background: none;
+  border: none;
+  width: 20px;
+  height: 20px;
+  &:hover ${StyledRound} {
+    display: block;
+  }
+`;
+
+export default SampleButton;
