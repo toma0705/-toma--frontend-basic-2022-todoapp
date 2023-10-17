@@ -10,10 +10,10 @@ const SampleButton = ({ onClick }) => {
       <img
         style={{
           position: "absolute",
-          top: "0 px",
-          left: "0 px",
-          width: "20 px",
-          height: "20 px",
+          top: 0,
+          left: 0,
+          width: 20,
+          height: 20,
         }}
         src={pencil}
       />
