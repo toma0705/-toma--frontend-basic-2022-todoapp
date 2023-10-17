@@ -4,6 +4,6 @@ export default { component: SampleButton };
 
 export const Default = {
   args: {
-    a: () => console.log("clicked"),
+    onClick: () => console.log("clicked"),
   },
 };
