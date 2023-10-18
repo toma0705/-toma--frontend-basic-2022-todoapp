@@ -25,6 +25,7 @@ const StyledButton = styled.button`
   &:hover {
     background-color: ${COLOR.GREEN_TRANSLUCENT};
     border-radius: 12px;
+    cursor: pointer;
   }
 `;
 
