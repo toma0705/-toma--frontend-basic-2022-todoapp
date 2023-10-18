@@ -22,7 +22,6 @@ const StyledButton = styled.button`
   border: none;
   align-items: center;
   padding: 2px 6px;
-  height: 20px;
   &:hover {
     background-color: ${COLOR.GREEN_TRANSLUCENT};
     border-radius: 12px;
@@ -34,6 +33,7 @@ const StyledText = styled.div`
   ${TEXT.S}
   font-family: ${FONTFAMILY.NOTO_SANS};
   margin-left: 10px;
+  font-weight: 500;
 `;
 
 const StyleDiv = styled.div`
