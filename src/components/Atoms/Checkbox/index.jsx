@@ -1,6 +1,7 @@
 import React from "react";
 import CHECK from "../../../assets/svg/check.svg";
 import styled from "styled-components";
+import COLOR from "../../../variables/color.js";
 
 const SampleButton = ({ onClick }) => {
   return (
@@ -23,7 +24,7 @@ const StyledButton = styled.button`
   background: none;
   border: none;
   align-items: center;
-  border: 2px solid rgba(184, 184, 184);
+  border: 2px solid ${COLOR.LIGHT_GRAY_TRANSLUCENT};
   border-radius: 2px;
   width: 20px;
   height: 20px;
