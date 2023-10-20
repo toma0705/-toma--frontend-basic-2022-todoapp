@@ -23,7 +23,7 @@ const StyledButton = styled.button`
   align-items: center;
   padding: 2px 6px;
   &:hover {
-    background-color: ${COLOR.LIGHT_GRAY};
+    background-color: ${COLOR.GREEN_TRANSLUCENT};
     border-radius: 12px;
     cursor: pointer;
   }

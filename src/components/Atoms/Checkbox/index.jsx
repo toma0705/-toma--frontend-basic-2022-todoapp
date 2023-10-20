@@ -24,7 +24,7 @@ const StyledButton = styled.button`
   background: none;
   border: none;
   align-items: center;
-  border: 2px solid ${COLOR.LIGHT_GRAY_TRANSLUCENT};
+  border: 2px solid ${COLOR.LIGHT_GRAY};
   border-radius: 2px;
   width: 20px;
   height: 20px;
