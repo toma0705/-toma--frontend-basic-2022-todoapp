@@ -40,6 +40,7 @@ const StyledInput = styled.input`
   padding: 0px 4px;
   width: 100%;
   height: 20px;
+  font-weight: 500;
   &:focus {
     outline: none;
   }
