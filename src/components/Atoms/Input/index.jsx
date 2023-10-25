@@ -10,9 +10,6 @@ export const Input = ({ onEditComplete, defaultValue }) => {
   const onPressEnter = (e) => {
     if (e.key === "Enter") {
       inputRef.current.blur();
-      inputRef.current.removeEventListener("blur", () => {
-        onEditComplete(inputRef.current.value);
-      });
     }
   };
 
