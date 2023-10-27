@@ -33,6 +33,7 @@ const StyledRound = styled.div`
 `;
 
 const StyledButton = styled.button`
+  cursor: pointer;
   display: block;
   position: relative;
   background: none;
