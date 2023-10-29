@@ -50,7 +50,7 @@ const StyledWrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: ${COLOR.BLACK};
+  background-color: ${COLOR.LIGHT_BLACK};
   border-radius: 4px;
 `;
 
