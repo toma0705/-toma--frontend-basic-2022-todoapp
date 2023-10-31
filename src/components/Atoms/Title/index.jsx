@@ -5,13 +5,16 @@ import FONTFAMILY from "../../../variables/font_family.js";
 import TEXT from "../../../variables/texts.js";
 import BREAKPOINT from "../../../variables/breakpoint.js";
 
-export const Title = () => {
+const Title = () => {
   return <StyledText>SIMPLE TODO APP</StyledText>;
 };
+
+export default Title;
 
 const StyledText = styled.div`
   color: ${COLOR.WHITE};
   font-family: ${FONTFAMILY.ROBOTO};
+  font-weight: 500;
   ${TEXT.L}
   @media screen and (max-width:${BREAKPOINT.MEDIUM}) {
     ${TEXT.M}
