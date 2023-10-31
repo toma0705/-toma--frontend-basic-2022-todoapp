@@ -26,6 +26,7 @@ const StyledButton = styled.button`
     background-color: ${COLOR.GREEN_TRANSLUCENT};
     border-radius: 12px;
     cursor: pointer;
+    width: 126px;
   }
 `;
 
