@@ -22,6 +22,9 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 60px;
+  @media (max-width: ${BREAKPOINT.MEDIUM}) {
+    padding: 20px;
+  }
   gap: 20px;
 `;
 
