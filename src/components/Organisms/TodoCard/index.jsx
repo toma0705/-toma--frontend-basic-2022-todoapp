@@ -24,6 +24,7 @@ const TodoCard = () => {
       setTaskList(taskListCopy.filter((_, indexCom) => indexCom !== index));
     } else {
       taskListCopy[index].name = value;
+      taskListCopy[index].initializing = false;
       setTaskList(taskListCopy);
     }
   };
